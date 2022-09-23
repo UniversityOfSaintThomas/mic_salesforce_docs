@@ -51,7 +51,6 @@ src/
     |__ js/
         |__ services/
             |__ admissions.js
-            |__ cape.js
             |__ events.js
             |__ lawsearch.js
 ```
@@ -59,10 +58,6 @@ src/
 ```
 src/
     |__ components/
-        |__ cape-listing/
-            |__ CapeListing.vue
-        |__ cape-program-filter/
-            |__ CapeProgramFilter.vue
         |__ cas-event-filter/
             |__ CasEventFilter.vue
         |__ event-detail

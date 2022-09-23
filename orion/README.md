@@ -12,17 +12,23 @@ src/
 
 ## admissions.js
 
-Example API:
+### APIs:
 
 ```
+Graduate Program Finder
+
 https://stthomas.force.com/applicantportal/services/apexrest/ustadmissionsrest.json?type=gradprogramfinder
+
+Undergraduate Program Finder
+
+https://stthomas.force.com/applicantportal/services/apexrest/ustadmissionsrest.json?type=ugprogramfinder
 ```
 
 ### Used in:
 
 -   FieldGraduateProgram.vue
 
-Example Object:
+### Object:
 
 ```json
 {
@@ -49,17 +55,13 @@ Example Object:
 
 ---
 
-## cape.js
-
-```
-https://stthomas.force.com/applicantportal/services/apexrest/capefeed
-```
-
 ## events.js
 
 ```
 https://stthomas.force.com/applicantportal/services/apexrest/usteventfeed
 ```
+
+---
 
 ## lawsearch.js
 
