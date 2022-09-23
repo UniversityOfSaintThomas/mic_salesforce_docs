@@ -81,8 +81,8 @@ https://stthomas.force.com/applicantportal/services/apexrest/usteventfeed?eventI
 
 ### Used in:
 
--   DfcGroupVisits.vue
--   DfcInterviews.vue
+-   DfcGroupVisits.vue => does not have a service file
+-   DfcInterviews.vue => does not have a service file
 -   Events.vue
 
 ### Endpoints:
@@ -127,5 +127,58 @@ building = '',
 	"className": "eventClosed",
 	"capacityTotal": 1,
 	"capacityRemaining": 1
+}
+```
+
+## cape.js
+
+### APIs:
+
+```
+https://stthomas.force.com/applicantportal/services/apexrest/capefeed2?feedType=courselist
+```
+
+### Used in:
+
+-   CapeFilter.vue
+-   CapeListing.vue
+
+### Endpoints:
+
+```javascript
+feedType = 'courselist',
+viewStart = '',
+viewEnd = '',
+months = '',
+subject = '',
+sponsor = '',
+format = '',
+retired = '',
+pagesize = '25',
+env = 'production',
+```
+
+### Object example:
+
+```json
+{
+	"title": "20th Century US History",
+	"subject": "Personal Growth",
+	"startTime": "13:00:00.000Z",
+	"startDetails": "",
+	"startDate": "2022-10-11",
+	"sponsor": "Selim Center for Lifelong Learning",
+	"retireDate": "2022-10-25",
+	"link": "https://www.stthomas.edu/selimcenter/programofferings/lectureseries/twentiethcenturyushistory/",
+	"image": "https://stthomas.force.com/applicantportal/servlet/rtaImage?eid=01t5b000006kEBG&feoid=00N0a00000D0P8l&refid=0EM5b000007yXNe",
+	"id": "01t5b000006kEBGAA2",
+	"format": "Hybrid (in person and online)",
+	"featureDate": "2022-07-21",
+	"featured": "false",
+	"end": "2022-10-25",
+	"description": "<span style=\"font-size: 11pt;\"><span style=\"font-family: Calibri,sans-serif;\"><span>This three-week course will provide an overview of US history from the end of the nineteenth century to the start of the twenty-first century.</span></span></span><br> ",
+	"cost": "50.00",
+	"ceus": "",
+	"alt": "20th Century US History"
 }
 ```

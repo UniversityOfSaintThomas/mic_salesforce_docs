@@ -35,7 +35,6 @@ src/
         |__ DegreesCertificates.vue
     |__ rfi/
         |__ FieldGraduateProgram.vue
-        |__ RfiForm.vue
     |__ ProgramFilter.vue
 ```
 
@@ -72,5 +71,4 @@ src/
             |__ SearchResults.vue
         |__ rfi/
             |__ FieldGraduateProgram.vue
-            |__ RfiForm.vue
 ```
