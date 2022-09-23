@@ -63,6 +63,8 @@ src/
             |__ lawsearch.js
 ```
 
+### Orion Vue Components using SF APIs
+
 ```bash
 src/
     |__ components/
