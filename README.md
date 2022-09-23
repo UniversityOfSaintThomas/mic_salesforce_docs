@@ -6,7 +6,7 @@
 
 Vue components don't all have a services file. Some components call the API directly.
 
-```
+```bash
 src/
 |__ js/
     |__ services/
@@ -18,7 +18,7 @@ src/
 
 ### Capricorn Vue Components using SF APIs
 
-```
+```bash
 src/
 |__ components/
     |__ cape-filter/
@@ -45,7 +45,7 @@ Vue components don't all have a services file. Some components call the API dire
 
 ### Orion JS Services
 
-```
+```bash
 src/
     |__ js/
         |__ services/
@@ -54,7 +54,7 @@ src/
             |__ lawsearch.js
 ```
 
-```
+```bash
 src/
     |__ components/
         |__ cas-event-filter/

@@ -1,6 +1,6 @@
 # Orion JS Services
 
-```
+```bash
 src/
     |__ js/
         |__ services/
@@ -72,7 +72,7 @@ https://stthomas.force.com/applicantportal/services/apexrest/usteventfeed?feedTy
 
 ### Endpoints:
 
-```
+```javascript
 feedType = 'eventList',
 id = '',
 viewStart = '',
@@ -115,22 +115,88 @@ env = 'production',
 }
 ```
 
-### Used in:
-
--   CasEventFilter.vue
--   EventDetail.vue
--   EventFinder.vue
--   EventListing.vue
--   HealthEventFilter.vue
-
-```
-
-```
-
 ---
 
 ## lawsearch.js
 
+### API:
+
 ```
-https://uofstthomas.secure.force.com/services/apexrest/professionaldirectoryfeed
+Parameter Keys
+
+https://uofstthomas.secure.force.com/services/apexrest/professionaldirectoryfeed?type=parameterkey
+
+Practice Areas
+
+https://uofstthomas.secure.force.com/services/apexrest/professionaldirectoryfeed?type=practice
+
+Directory
+
+https://uofstthomas.secure.force.com/services/apexrest/professionaldirectoryfeed?type=directory
+
+```
+
+### Used in:
+
+-   AdvancedSearch.vue
+-   AlumniProfile.vue
+-   PracticeAreas.vue
+-   SearchResults.vue
+
+### Endpoints:
+
+```javascript
+type = 'directory',
+practice = '',
+language = '',
+city = '',
+state = '',
+admissionstate = '',
+country = '',
+pagesize = '',
+page = '',
+first = '',
+last = '',
+employer = '',
+gradyear = '',
+keywords = '',
+sortby = '',
+order = '',
+```
+
+### Object example:
+
+```json
+{
+	"workEmail": "riki.rodriguez@ci.stpaul.mn.us",
+	"website": "",
+	"title": "Associate Attorney - Criminal Division",
+	"specialties": [
+		{
+			"specialtyPercentage": 100,
+			"specialty": "Criminal - Prosecution"
+		}
+	],
+	"picture": "",
+	"linkedIn": "",
+	"lastName": "Rodriguez",
+	"language": "",
+	"keywords": "Domestic Assault,,,,",
+	"gradYearSelfReported": "2018",
+	"gradYear": "2018",
+	"genderIdentity": "",
+	"firstName": "Riki",
+	"ethnicity": "Hispanic or Latino",
+	"employerZip": "55102",
+	"employerState": "MN",
+	"employerPhone": "651-266-8718",
+	"employerName": "Saint Paul City Attorney's Office",
+	"employerCountry": "United States of America",
+	"employerCity": "St Paul",
+	"employerAddress": "15 West Kellogg Blvd",
+	"degreeAwarded": "J.D.",
+	"bio": "",
+	"admissionState": "MN",
+	"additionalIdentity": ""
+}
 ```
