@@ -6,7 +6,7 @@
 
 ---
 
-### Capricorn JS Services
+### [Capricorn](https://github.com/UniversityOfSaintThomas/mic_salesforce_docs/blob/main/capricorn.md) JS Services
 
 Vue components don't all have a services file. Some components call the API directly.
 
@@ -56,7 +56,7 @@ src/
 
 ---
 
-### Orion JS Services
+### [Orion](https://github.com/UniversityOfSaintThomas/mic_salesforce_docs/blob/main/orion.md) JS Services
 
 ```bash
 src/
