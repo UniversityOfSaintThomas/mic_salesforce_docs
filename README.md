@@ -2,7 +2,9 @@
 
 ## The following outlines where and how we use Salesforce
 
-### The [RFI Documentation](https://github.com/UniversityOfSaintThomas/mic_salesforce_docs/blob/main/rfi.md) is on this page
+### The [Salesforce RFI information](https://github.com/UniversityOfSaintThomas/mic_salesforce_docs/blob/main/rfi.md) is on this page
+
+---
 
 ### Capricorn JS Services
 
