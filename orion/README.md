@@ -27,7 +27,7 @@ https://stthomas.force.com/applicantportal/services/apexrest/ustadmissionsrest.j
 
 -   FieldGraduateProgram.vue
 
-### Object:
+### Object example:
 
 ```json
 {
@@ -56,8 +56,75 @@ https://stthomas.force.com/applicantportal/services/apexrest/ustadmissionsrest.j
 
 ## events.js
 
+### API:
+
 ```
-https://stthomas.force.com/applicantportal/services/apexrest/usteventfeed
+https://stthomas.force.com/applicantportal/services/apexrest/usteventfeed?feedType=eventList
+```
+
+### Used in:
+
+-   CasEventFilter.vue
+-   EventDetail.vue
+-   EventFinder.vue
+-   EventListing.vue
+-   HealthEventFilter.vue
+
+### Endpoints:
+
+```
+feedType = 'eventList',
+id = '',
+viewStart = '',
+viewEnd = '',
+audience = '',
+filter = '',
+sponsor = '',
+school = '',
+category = '',
+displayon = '',
+building = '',
+type = '',
+env = 'production',
+```
+
+### Object example:
+
+```json
+{
+	"title": "Group Visits - Week of August 23-25",
+	"start": "2022-08-23T08:00:00.000Z",
+	"sponsors": "",
+	"longDesc": "",
+	"locationType": "St. Paul",
+	"locationTitle": "",
+	"locationMapLink": "",
+	"locationBuilding": "",
+	"locationAddress": "",
+	"instanceDesc": "",
+	"ID": "a345b000003EykDAAS",
+	"feedButtonText": "Register",
+	"excludeSearchTag": false,
+	"eventUrl": "javascript:void(0);",
+	"eventClosed": true,
+	"end": "2022-08-25T16:00:00.000Z",
+	"description": "",
+	"className": "eventClosed",
+	"capacityTotal": 1,
+	"capacityRemaining": 1
+}
+```
+
+### Used in:
+
+-   CasEventFilter.vue
+-   EventDetail.vue
+-   EventFinder.vue
+-   EventListing.vue
+-   HealthEventFilter.vue
+
+```
+
 ```
 
 ---

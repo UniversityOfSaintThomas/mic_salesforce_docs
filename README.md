@@ -37,7 +37,6 @@ src/
         |__ FieldGraduateProgram.vue
         |__ RfiForm.vue
     |__ ProgramFilter.vue
-
 ```
 
 ---
