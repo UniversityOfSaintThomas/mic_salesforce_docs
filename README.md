@@ -40,6 +40,8 @@ src/
 
 ```
 
+---
+
 Vue components don't all have a services file. Some components call the API directly.
 
 ### Orion JS Services
