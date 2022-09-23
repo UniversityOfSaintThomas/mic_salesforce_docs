@@ -2,6 +2,8 @@
 
 ## The following outlines where and how we use Salesforce
 
+### The [RFI Documentation](https://github.com/UniversityOfSaintThomas/mic_salesforce_docs/blob/main/rfi.md) is on this page
+
 ### Capricorn JS Services
 
 Vue components don't all have a services file. Some components call the API directly.
