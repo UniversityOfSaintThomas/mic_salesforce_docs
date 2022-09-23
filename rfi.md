@@ -1,5 +1,7 @@
 # RFIs
 
+RFI Form vue componenets are nearly identical in Capricorn and Orion templates.
+
 ```bash
 src/
 |__ components/

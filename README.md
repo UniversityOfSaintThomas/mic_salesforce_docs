@@ -4,6 +4,8 @@
 
 ### The [Salesforce RFI information](https://github.com/UniversityOfSaintThomas/mic_salesforce_docs/blob/main/rfi.md) is on this page
 
+RFI Form vue componenets are nearly identical in Capricorn and Orion templates.
+
 ---
 
 ### [Capricorn](https://github.com/UniversityOfSaintThomas/mic_salesforce_docs/blob/main/capricorn.md) JS Services
