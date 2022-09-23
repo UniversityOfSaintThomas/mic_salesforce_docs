@@ -9,6 +9,8 @@ src/
             |__ lawsearch.js
 ```
 
+---
+
 ## admissions.js
 
 ### APIs:

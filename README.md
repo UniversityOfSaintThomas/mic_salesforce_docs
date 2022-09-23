@@ -1,6 +1,6 @@
 # MIC Salesforce Documentation
 
-## The following outlines where and how we use Salesforce in RFIs (Request for Information) and APIs.
+## The following outlines where and how we use Salesforce
 
 ### Capricorn JS Services
 
@@ -40,8 +40,6 @@ src/
 ```
 
 ---
-
-Vue components don't all have a services file. Some components call the API directly.
 
 ### Orion JS Services
 
