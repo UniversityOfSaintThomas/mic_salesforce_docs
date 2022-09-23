@@ -16,6 +16,18 @@ src/
         |__ events.js
 ```
 
+### Capricorn Legacy Web Apps
+
+```bash
+src/
+|__ js/
+    |__ scripts/
+        |__ web-apps/
+            |__ locate-counselor.js
+        |__ admissions-visit.js
+        |__ web-apps.js
+```
+
 ### Capricorn Vue Components using SF APIs
 
 ```bash

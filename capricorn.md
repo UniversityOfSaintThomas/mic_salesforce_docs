@@ -12,6 +12,18 @@ src/
         |__ events.js
 ```
 
+## Capricorn Legacy Web Apps
+
+```bash
+src/
+|__ js/
+    |__ scripts/
+        |__ web-apps/
+            |__ locate-counselor.js
+        |__ admissions-visit.js
+        |__ web-apps.js
+```
+
 ---
 
 ## admissions.js
@@ -33,6 +45,7 @@ https://stthomas.force.com/applicantportal/services/apexrest/ustadmissionsrest.j
 -   FieldGraduateProgram.vue
 -   DegreesCertificates.vue
 -   ProgramFilter.vue
+-   locate-counselor.js
 
 ### Object example:
 
@@ -84,6 +97,8 @@ https://stthomas.force.com/applicantportal/services/apexrest/usteventfeed?eventI
 -   DfcGroupVisits.vue => does not have a service file
 -   DfcInterviews.vue => does not have a service file
 -   Events.vue
+-   admissions-visit.js
+-   web-apps.js
 
 ### Endpoints:
 
