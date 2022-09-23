@@ -5,7 +5,6 @@ src/
     |__ js/
         |__ services/
             |__ admissions.js
-            |__ cape.js
             |__ events.js
             |__ lawsearch.js
 ```
