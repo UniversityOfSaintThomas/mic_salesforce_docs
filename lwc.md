@@ -42,7 +42,7 @@
 -   Create a new page called `eda-rfi`
 -   Use a full width module to embed the RFI
 -   Uncheck "Include when publishing"
--   Replace the rfi_controller number
+-   Update the rfi_controller number
 
 ```javascript
 <div id="lightning"></div>
