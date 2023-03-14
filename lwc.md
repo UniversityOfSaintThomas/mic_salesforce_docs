@@ -2,6 +2,7 @@
 
 -   https://cas.stthomas.edu/admissions/graduate/request-information/index.html
 -   https://business.stthomas.edu/request-for-information/index.html
+-   https://dfc.stthomas.edu/admissions-tuition/request-information/index.html
 -   https://education.stthomas.edu/admissions/graduate/request-information/index.html
 -   https://engineering.stthomas.edu/admissions/graduate/request-information/index.html
 -   https://software.stthomas.edu/admissions/request-information/index.html
@@ -10,8 +11,8 @@
 -   https://health.stthomas.edu/nursing/admissions/request-information/index.html
 -   https://www.stthomas.edu/admissions/graduate/request-information/divinity/index.html
 -   https://www.stthomas.edu/admissions/undergraduate/request-information/index.html
--   https://law.aws.stthomas.edu/ethics-compliance/msl/admissions-tuition/request-information/index.html#college^School%20of%20Law*
--   https://law.aws.stthomas.edu/llm-us-law/admissions-tuition/request-information/index.html#college^School%20of%20Law*program^LW_GR_LLM|LAUS\*
+-   https://law.aws.stthomas.edu/ethics-compliance/msl/admissions-tuition/request-information/index.html
+-   https://law.aws.stthomas.edu/llm-us-law/admissions-tuition/request-information/index.html
 
 # How to build an RFI (Lightning Component)
 
