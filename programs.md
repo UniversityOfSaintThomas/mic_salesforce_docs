@@ -1,7 +1,7 @@
 # Programs and Majors Codes
 
 | Name                                                                  | Program_Offered_Code\_\_c | Major_Code\_\_c |
-| --------------------------------------------------------------------- | ------------------------- | --------------- |
+| :-------------------------------------------------------------------- | :------------------------ | :-------------- |
 | Accountancy                                                           | BU_AC_MS                  | ACMS            |
 | Advanced Manufacturing Certificate                                    | ET_GR_CER                 | AVMF            |
 | Advanced Professional                                                 | BU_GR_CPM                 | BUAP            |
